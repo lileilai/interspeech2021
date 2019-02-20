@@ -158,7 +158,7 @@ we compare our proposed model with existing state-of-the-art methods on both PIS
 {\bf Dual-glance}\cite{DBLP:conf/iccv/LiWZK17} implements coarse and fine prediction which includes three and six relationships. Dual-glance employing pair CNN + BBox + BBox + Union and utilized surrounding region proposal to refine the prediction.\\
 {\bf GRM}\cite{DBLP:conf/ijcai/WangCRYCL18} propse a graph reasoning model that unifies the frequence of co-concurrences of each relationship-object pair to facilitate social relation.
 
-Similar to the model of GRM, we also adopt the per-class recall and mean average precision(mMP) to evaluate our model. The experiments data are reported in Table 1. First, both Pair CNN + BBox + Union, Pair CNN + BBox + Global, Dual-glance are incur extra Faster-RCNN\cite{DBLP:conf/nips/RenHGS15} to extract the local contextual cues(object proposal). GRM utilized the object proposal to construct a semantic-aware  knowledge graph to reason about the social relationship. It is notable that both of them incur extra detection annotations that contains noisies.
+Similar to the model of GRM, we also adopt the per-class recall and mean average precision(mMP) to evaluate our model. The experiments data are reported in Table 1. First, both Pair CNN + BBox + Union, Pair CNN + BBox + Global, Dual-glance are incur extra Faster-RCNN\cite{DBLP:conf/nips/RenHGS15} to extract the local contextual cues(object proposal). GRM utilized the object proposal to construct a semantic-aware  knowledge graph to reason about the social relationship. It is notable that both of them incur extra detection annotations that contains noisies. dasdasdasd
 
 
 \subsubsection{Performance on the PIPA-Relation dataset}
