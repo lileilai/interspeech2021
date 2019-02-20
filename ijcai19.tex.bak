@@ -26,7 +26,7 @@
 \usepackage{array}
 \urlstyle{same}
 % the following package is optional:
-%\usepackage{latexsym}
+%\usepackage{latexsym} 
 
 % Following comment is from ijcai97-submit.tex:
 % The preparation of these files was supported by Schlumberger Palo Alto
@@ -88,7 +88,7 @@ fourth@example.com
 \begin{abstract}
 % Social relationships play a very important role in social network. Social relationship understanding has attracted increasing attention, typically, which can help to understand the behavior of humen in our daily life. Previous social relationship understanding models focused too much on relationships between the same pair and ignore the interplay of different relationships in the same scene.  We found that the interaction between the relationships in the same scene plays an important role in the understanding of social relations and we can make meanful use of rules during inference. This paper proposes a novel model named {\it SRDR} which incorporates rules seamlessly into the deep learning model named {\it SR}  to solve the social relationship understanding problem. It formulates inference as an integer linear programming (ILP) problem, with the objective function generated from {\it SR} and the constraints translated from rules. By incorporating rules, our approach can greatly reduce the solution space and significantly improve the inference accuracy of social relationship understanding models. Experimental results on two classic data sets show that our approach significantly outperforms state-of-the-art  models in social relationship understanding, which justifies the significance of incorporating rules seamlessly into the deep learning model in social relationship understanding task.
 
-Social relationships understanding is to infer the relations among people from images and videos, which has attracted increasing attention in computer vison recently. A great progress has been made since the rise of deep learning. However, they mostly focuses on the facial attributes or contextual objects cues without taking into account the interaction among person pairs. Motivated by scene graph generation, we carefully studied the datasets and found the social relations in a still image always have high semantic relevance. For instance, if two person pair in an image are {\it Friends}, then the third one is always friends or at least other {\it Intimate} relations but not {\it No Relation}. Therefore, to capture this interaction cues, we propose a novel end-to-end trainable Person-Pair Relation Network (PRN) using standard RNNs, a graph inference network that learns iteratively to improve its predictions via message passing among person pair nodes. Extensive experiments on PISC and PIPA-Relation show the superiority of our method over previous methods.
+Social relationships understanding is to infer the relations among people from images and videos, which has attracted increasing attention in computer vison recently. A great progress has been made since the rise of deep learning. However, they mostly focuses on the facial attributes or contextual objects cues without taking into account the interaction among person pairs. Motivated by scene graph generation, we carefully studied the datasets and found the social relations in a still image always have high semantic relevance. For instance, if two person pair in an image are {\it Friends}, then the third one is always friends or at least other {\it Intimate} relations but not {\it No Relation}. Therefore, to capture this interaction cues, we propose a novel end-to-end trainable Person-Pair Relation Network (PRN) using standard RNNs, a graph inference network that learns iteratively to improve its predictions via message passing among person pair nodes. Extensive experiments on PISC and PIPA-Relation show the superiority of our method over previous methods. 
 
 \end{abstract}
 
@@ -119,7 +119,7 @@ Unlike the aforementioned works which mainly focus on facial attributs or contex
 
 
 Introduction to Message Passing, written by {\bf liangjinrui}.
-
+ 
 
 
 \subsection{Rules and ILP}
@@ -156,13 +156,13 @@ we compare our proposed model with existing state-of-the-art methods on both PIS
 {\bf Pair CNN}\cite{DBLP:conf/iccv/LiWZK17} consists of two equivalent CNNs with shared weights to extracted features for image for two individuals.\\
 {\bf Pair CNN + BBox + Union}\cite{DBLP:conf/iccv/LiWZK17} incorporates spatial location information of two bounding box that based the previous pair CNN and Union CNN.\\
 {\bf Dual-glance}\cite{DBLP:conf/iccv/LiWZK17} implements coarse and fine prediction which includes three and six relationships. Dual-glance employing pair CNN + BBox + BBox + Union and utilized surrounding region proposal to refine the prediction.\\
-{\bf GRM}\cite{DBLP:conf/ijcai/WangCRYCL18} propose a graph reasoning model that unifies the frequency of co-concurrences of each relationship-object pair to facilitate social relation.
+{\bf GRM}\cite{DBLP:conf/ijcai/WangCRYCL18} propse a graph reasoning model that unifies the frequence of co-concurrences of each relationship-object pair to facilitate social relation.
 
-Similar to the model of GRM, we also adopt the per-class recall and mean average precision(mMP) to evaluate our model. The experiments data are reported in Table 1. First, both Pair CNN + BBox + Union, Pair CNN + BBox + Global, Dual-glance are incur extra Faster-RCNN\cite{DBLP:conf/nips/RenHGS15} to extract the local contextual cues(object proposal). GRM utilized the object proposal to construct a semantic-aware  knowledge graph to reason about the social relationship. It is notable that both of them incur extra detection annotations that contains noises.
+Similar to the model of GRM, we also adopt the per-class recall and mean average precision(mMP) to evaluate our model. The experiments data are reported in Table 1. First, both Pair CNN + BBox + Union, Pair CNN + BBox + Global, Dual-glance are incur extra Faster-RCNN\cite{DBLP:conf/nips/RenHGS15} to extract the local contextual cues(object proposal). GRM utilized the object proposal to construct a semantic-aware  knowledge graph to reason about the social relationship. It is notable that both of them incur extra detection annotations that contains noisies. dasdasdasd
 
 
 \subsubsection{Performance on the PIPA-Relation dataset}
-On this dataset, we also compare our proposed model with the existing Two stream CNN\cite{DBLP:conf/cvpr/SunSF17},Dual-glance\cite{DBLP:conf/iccv/LiWZK17} and GRM\cite{DBLP:conf/ijcai/WangCRYCL18}.Two stream CNN takes
+On this dataset, we also compare our proposed model with the existing Two stream CNN\cite{DBLP:conf/cvpr/SunSF17},Dual-glance\cite{DBLP:conf/iccv/LiWZK17} and GRM\cite{DBLP:conf/ijcai/WangCRYCL18}.Two stream CNN takes 
 
 \subsection{Experiment Results}
 
