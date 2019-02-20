@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.5)  21 FEB 2019 01:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.5)  21 FEB 2019 01:15
 entering extended mode
-**./ijcai19.tex
-(ijcai19.tex
+**C:/Users/lileilai/Documents/ijcai19/ijcai19.tex
+(C:/Users/lileilai/Documents/ijcai19/ijcai19.tex
 LaTeX2e <2018-04-01> patch level 5
 IJCAI-19 Instructions for Authors
 (E:\MikTex\tex\latex\base\article.cls
@@ -27,4 +27,737 @@ Conference Style, version of November 2018
 Named Citation Style, version of 30 November 1994
 ) (E:\MikTex\tex\latex\psnfss\times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (E:\MikTex\tex\latex\soul\soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks14
+\SOUL@lasttoken=\toks15
+\SOUL@cmds=\toks16
+\SOUL@buffer=\toks17
+\SOUL@token=\toks18
+\SOUL@spaceskip=\skip45
+\SOUL@ttwidth=\dimen103
+\SOUL@uldp=\dimen104
+\SOUL@ulht=\dimen105
 )
+(E:\MikTex\tex\latex\url\url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (E:\MikTex\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(E:\MikTex\tex\generic\oberdiek\hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(E:\MikTex\tex\generic\oberdiek\hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(E:\MikTex\tex\latex\graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(E:\MikTex\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(E:\MikTex\tex\latex\oberdiek\auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(E:\MikTex\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen106
+\Hy@linkcounter=\count88
+\Hy@pagecounter=\count89
+
+(E:\MikTex\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count90
+
+(E:\MikTex\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count91
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen107
+\Fld@menulength=\count92
+\Field@Width=\dimen108
+\Fld@charsize=\dimen109
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count93
+\c@Item=\count94
+\c@Hfootnote=\count95
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(E:\MikTex\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count96
+\c@bookmark@seq@number=\count97
+
+(E:\MikTex\tex\latex\oberdiek\rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+(E:\MikTex\tex\latex\base\inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+)
+(E:\MikTex\tex\latex\caption\caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(E:\MikTex\tex\latex\caption\caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen110
+\captionmargin@=\dimen111
+\captionwidth=\dimen112
+\caption@tempdima=\dimen113
+\caption@indent=\dimen114
+\caption@parindent=\dimen115
+\caption@hangindent=\dimen116
+)
+\c@caption@flags=\count98
+\c@ContinuedFloat=\count99
+Package caption Info: hyperref package is loaded.
+)
+(E:\MikTex\tex\latex\graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(E:\MikTex\tex\latex\graphics\graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(E:\MikTex\tex\latex\graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(E:\MikTex\tex\latex\graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(E:\MikTex\tex\latex\graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+(E:\MikTex\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(E:\MikTex\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(E:\MikTex\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen119
+))
+(E:\MikTex\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen120
+)
+(E:\MikTex\tex\latex\amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count100
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count101
+\leftroot@=\count102
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count103
+\DOTSCASE@=\count104
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen121
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
+\dotsspace@=\muskip11
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
+\tag@help=\toks23
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
+\andhelp@=\toks24
+\eqnshift@=\dimen122
+\alignsep@=\dimen123
+\tagshift@=\dimen124
+\tagwidth@=\dimen125
+\totwidth@=\dimen126
+\lineht@=\dimen127
+\@envbody=\toks25
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(E:\MikTex\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen128
+\lightrulewidth=\dimen129
+\cmidrulewidth=\dimen130
+\belowrulesep=\dimen131
+\belowbottomsep=\dimen132
+\aboverulesep=\dimen133
+\abovetopsep=\dimen134
+\cmidrulesep=\dimen135
+\cmidrulekern=\dimen136
+\defaultaddspace=\dimen137
+\@cmidla=\count112
+\@cmidlb=\count113
+\@aboverulesep=\dimen138
+\@belowrulesep=\dimen139
+\@thisruleclass=\count114
+\@lastruleclass=\count115
+\@thisrulewidth=\dimen140
+)
+(E:\MikTex\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(E:\MikTex\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count116
+\float@exts=\toks27
+\float@box=\box28
+\@float@everytoks=\toks28
+\@floatcapt=\box29
+) (E:\MikTex\tex\latex\base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks29
+\c@algorithm=\count117
+)
+(E:\MikTex\tex\latex\algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count118
+\c@ALC@line=\count119
+\c@ALC@rem=\count120
+\c@ALC@depth=\count121
+\ALC@tlm=\skip50
+\algorithmicindent=\skip51
+)
+(E:\MikTex\tex\latex\multirow\multirow.sty
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count122
+\multirow@dima=\skip53
+\bigstrutjot=\dimen141
+)
+(E:\MikTex\tex\latex\tools\array.sty
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen142
+\ar@mcellbox=\box30
+\extrarowheight=\dimen143
+\NC@list=\toks30
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box31
+) (ijcai19.aux)
+\openout1 = `ijcai19.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 84.
+
+(E:\MikTex\tex\latex\psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring OFF on input line 84.
+
+(E:\MikTex\tex\latex\hyperref\nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(E:\MikTex\tex\generic\oberdiek\gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count123
+)
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
+ (ijcai19.out) (ijcai19.out)
+\@outlinefile=\write3
+\openout3 = `ijcai19.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (E:\MikTex\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count124
+\scratchdimen=\dimen144
+\scratchbox=\box33
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen145
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks32
+) (E:\MikTex\tex\latex\oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(E:\MikTex\tex\latex\oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\titlearea=\box34
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+\actualheight=\skip56
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 98.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 100.
+
+
+(E:\MikTex\tex\latex\psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 100.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 111.
+ [1{C:/Users/lileilai/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+]
+Underfull \hbox (badness 2875) in paragraph at lines 155--160
+\OT1/ptm/m/n/10 that uni-fies the fre-quency of co-concurrences of each
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 179--179
+ []|\OT1/ptm/m/n/10 72.1| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 179--179
+ []|\OT1/ptm/m/n/10 81.3| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 179--179
+ []|\OT1/ptm/m/n/10 19.2| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 179--179
+ []|\OT1/ptm/m/n/10 58.4| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 179--179
+ []|\OT1/ptm/m/n/10 29.9| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 179--179
+ []|\OT1/ptm/m/n/10 58.5| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 179--179
+ []|\OT1/ptm/m/n/10 70.7| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 179--179
+ []|\OT1/ptm/m/n/10 55.4| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 179--179
+ []|\OT1/ptm/m/n/10 43.0| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 179--179
+ []|\OT1/ptm/m/n/10 19.6| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 179--180
+ []|\OT1/ptm/m/n/10 43.5| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 180--180
+ []|\OT1/ptm/m/n/10 70.3| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 180--180
+ []|\OT1/ptm/m/n/10 80.5| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 180--180
+ []|\OT1/ptm/m/n/10 38.8| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 180--180
+ []|\OT1/ptm/m/n/10 65.1| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 180--180
+ []|\OT1/ptm/m/n/10 30.2| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 180--180
+ []|\OT1/ptm/m/n/10 59.1| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 180--180
+ []|\OT1/ptm/m/n/10 69.4| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 180--180
+ []|\OT1/ptm/m/n/10 57.5| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 180--180
+ []|\OT1/ptm/m/n/10 41.9| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 180--180
+ []|\OT1/ptm/m/n/10 34.2| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 180--181
+ []|\OT1/ptm/m/n/10 48.2| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 181--181
+ []|\OT1/ptm/m/n/10 71.1| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 181--181
+ []|\OT1/ptm/m/n/10 81.2| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 181--181
+ []|\OT1/ptm/m/n/10 57.9| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 181--181
+ []|\OT1/ptm/m/n/10 72.2| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 181--181
+ []|\OT1/ptm/m/n/10 32.5| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 181--181
+ []|\OT1/ptm/m/n/10 62.1| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 181--181
+ []|\OT1/ptm/m/n/10 73.9| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 181--181
+ []|\OT1/ptm/m/n/10 61.4| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 181--181
+ []|\OT1/ptm/m/n/10 46.0| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 181--181
+ []|\OT1/ptm/m/n/10 52.1| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 181--182
+ []|\OT1/ptm/m/n/10 56.9| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 182--182
+ []|\OT1/ptm/m/n/10 70.5| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 182--182
+ []|\OT1/ptm/m/n/10 80.0| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 182--182
+ []|\OT1/ptm/m/n/10 53.7| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 182--182
+ []|\OT1/ptm/m/n/10 70.5| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 182--182
+ []|\OT1/ptm/m/n/10 32.2| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 182--182
+ []|\OT1/ptm/m/n/10 61.7| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 182--182
+ []|\OT1/ptm/m/n/10 72.6| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 182--182
+ []|\OT1/ptm/m/n/10 60.8| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 182--182
+ []|\OT1/ptm/m/n/10 44.3| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 182--182
+ []|\OT1/ptm/m/n/10 51.0| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 182--183
+ []|\OT1/ptm/m/n/10 54.6| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 183--183
+ []|\OT1/ptm/m/n/10 73.1| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 183--183
+ []|\OT1/ptm/m/n/10 84.2| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 183--183
+ []|\OT1/ptm/m/n/10 59.6| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 183--183
+ []|\OT1/ptm/m/n/10 79.7| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 183--183
+ []|\OT1/ptm/m/n/10 35.4| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 183--183
+ []|\OT1/ptm/m/n/10 68.1| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 183--183
+ []|\OT1/ptm/m/n/10 76.3| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 183--183
+ []|\OT1/ptm/m/n/10 70.3| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 183--183
+ []|\OT1/ptm/m/n/10 57.6| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 183--183
+ []|\OT1/ptm/m/n/10 60.9| 
+ []
+
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 183--184
+ []|\OT1/ptm/m/n/10 63.2| 
+ []
+
+[2] (ijcai19.bbl
+Underfull \hbox (badness 2189) in paragraph at lines 12--17
+[]\OT1/ptm/m/n/10 Hamdi Dibek-li-oglu, Al-bert Ali
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 37--42
+[]\OT1/ptm/m/n/10 Li-Jia Li, David A. Shamma, Xi-ang-nan
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 37--42
+\OT1/ptm/m/n/10 Kong, Sina Ja-far-pour, Roelof van Zwol, and Xu-an-
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 52--57
+[]\OT1/ptm/m/n/10 Cewu Lu, Ran-jay Kr-ishna, Michael S.
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 76--81
+[]\OT1/ptm/m/n/10 Qianru Sun, Bernt Schiele, and Mario
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 125--129
+[]\OT1/ptm/m/n/10 Zhanpeng Zhang, Ping Luo,
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 125--129
+\OT1/ptm/m/it/10 In-ter-na-tional Con-fer-ence on Com-puter Vi-sion, ICCV
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 125--129
+\OT1/ptm/m/it/10 2015, San-ti-ago, Chile, De-cem-ber 7-13, 2015\OT1/ptm/m/n/10 
+, pages
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
+ [4
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
+ (ijcai19.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 202.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
+Package rerunfilecheck Info: File `ijcai19.out' has not changed.
+(rerunfilecheck)             Checksum: 9A47115F8A28A50E29577A341403F763;1289.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
+ ) 
+Here is how much of TeX's memory you used:
+ 7398 strings out of 492973
+ 108792 string characters out of 3143872
+ 218267 words of memory out of 3000000
+ 11148 multiletter control sequences out of 15000+200000
+ 18364 words of font info for 35 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,11n,39p,1708b,418s stack positions out of 5000i,500n,10000p,200000b,50000s
+{E:/MikTex/fonts/enc/dvips/base/8r.enc}<E:/MikTex/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><E:/MikTex/fonts/type1/urw/times/utmb8a.pfb><E:/MikTex/fonts/typ
+e1/urw/times/utmr8a.pfb><E:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ijcai19.pdf (4 pages, 96656 bytes).
+PDF statistics:
+ 191 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+
