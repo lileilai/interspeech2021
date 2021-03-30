@@ -1,0 +1,138 @@
+\relax 
+\citation{TUTDatatbase}
+\citation{sed1}
+\citation{sed2}
+\citation{se}
+\citation{su2017weakly}
+\citation{pert}
+\citation{tf}
+\citation{autoTagging}
+\citation{audiofew}
+\citation{song}
+\citation{park}
+\citation{few-shot-sound-detection}
+\citation{attentionSimilarity}
+\citation{rare}
+\citation{few-att-gnn}
+\citation{fewShotGNN}
+\citation{TPN}
+\citation{attentionSimilarity}
+\citation{MatchNet}
+\citation{fewShotGNN}
+\citation{TPN}
+\citation{protoNet}
+\citation{relationNet}
+\citation{CloserLook}
+\citation{audiofew}
+\citation{attentionSimilarity}
+\citation{few-att-gnn}
+\citation{protoNet}
+\citation{fewgnn}
+\@writefile{toc}{\contentsline {section}{\numberline {1} Introduction}{1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces An example illustrates the motivation. (a) defines a 5-way 1-shot task. There’re three feature dimensions: \textit  {Tone}, \textit  {Timbre} and \textit  {loudness}. Different color means different value of the feature, same color adds the similarity score by 1; (b) In the k-shot (k=3) setting, all examples of class c3 share the same value of \textit  {Tone} even though their \textit  {Timbre} and \textit  {loudness} are different. \relax }}{1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:idea}{{1}{1}}
+\citation{protoNet}
+\citation{maml}
+\citation{opt1}
+\citation{opt2}
+\citation{koch2015siamese}
+\citation{protoNet}
+\citation{TPN}
+\citation{TSVM}
+\citation{TPNzero}
+\citation{timefrequnencymask}
+\citation{dataa}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces (a). The overall framework of our model, it is composed of three parts: feature encoder, task-adaptive module and metric-based few-shot learning network. (b). The temporal\&channel attention mechanism. $A_{ch}$ is the channel attention, $A_{te}$ is the temporal attention. (c). Data augmentation pipeline for the input log mel-spectrogram.\relax }}{2}\protected@file@percent }
+\newlabel{fig:model}{{2}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2} Preliminary}{2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1} Few-shot sound event detection}{2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2} Metric-based learning methods}{2}\protected@file@percent }
+\newlabel{methods}{{2.2}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3} Approach}{2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1} Masked mixup}{2}\protected@file@percent }
+\citation{attentionSimilarity}
+\citation{timefrequnencymask}
+\citation{ESC_dataset_50}
+\citation{attentionSimilarity}
+\citation{TUTDatatbase}
+\citation{MatchNet}
+\citation{attentionSimilarity}
+\citation{librosa}
+\citation{attentionSimilarity}
+\citation{attentionSimilarity}
+\citation{MatchNet}
+\citation{relationNet}
+\citation{SimilairtyEmbeddingNetwork}
+\citation{protoNet}
+\citation{attentionSimilarity}
+\citation{TPN}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2} Task-adaptive module}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1} Task-Adaptive-Extractor: commonality among class}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2} Projector: characteristics among classes}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3} Portable to backbone}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4} Experiments}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1} Experimental setting}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2} Performance on ESC-50 and noiseESC-50}{3}\protected@file@percent }
+\citation{dataaug}
+\citation{fewshotdomain}
+\citation{fewshotdomain}
+\citation{domainad}
+\citation{domain_ad}
+\citation{audioSet}
+\citation{attentionSimilarity}
+\citation{fewshotdomain}
+\citation{protoNet}
+\citation{attentionSimilarity}
+\citation{TPN}
+\bibstyle{IEEEtran}
+\bibdata{mybib}
+\bibcite{TUTDatatbase}{1}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces The result of sound detection (in \%) on ESC-50 and noiseESC-50. All baselines reported here are directly reprint the experimental results from the literature\nobreakspace  {}\cite  {attentionSimilarity}. \textbf  {TA} means the task-adaptive module. \textbf  {DA} means the data augmentation method.\relax }}{4}\protected@file@percent }
+\newlabel{tab:1}{{1}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 5-way performance with various training/test shots\relax }}{4}\protected@file@percent }
+\newlabel{fig:fig_exp_1}{{3}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3} Analysis of experimental results}{4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4} Analysis of domain mismatch}{4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces The result of few-shot sound detection in domain mismatch. The AUC(Area Under Curve) is used for evaluation.\relax }}{4}\protected@file@percent }
+\newlabel{tab:2}{{2}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5} Conclusion}{4}\protected@file@percent }
+\bibcite{sed1}{2}
+\bibcite{sed2}{3}
+\bibcite{se}{4}
+\bibcite{su2017weakly}{5}
+\bibcite{pert}{6}
+\bibcite{tf}{7}
+\bibcite{autoTagging}{8}
+\bibcite{audiofew}{9}
+\bibcite{song}{10}
+\bibcite{park}{11}
+\bibcite{few-shot-sound-detection}{12}
+\bibcite{attentionSimilarity}{13}
+\bibcite{rare}{14}
+\bibcite{few-att-gnn}{15}
+\bibcite{fewShotGNN}{16}
+\bibcite{TPN}{17}
+\bibcite{MatchNet}{18}
+\bibcite{protoNet}{19}
+\bibcite{relationNet}{20}
+\bibcite{CloserLook}{21}
+\bibcite{fewgnn}{22}
+\bibcite{maml}{23}
+\bibcite{opt1}{24}
+\bibcite{opt2}{25}
+\bibcite{koch2015siamese}{26}
+\bibcite{TSVM}{27}
+\bibcite{TPNzero}{28}
+\bibcite{timefrequnencymask}{29}
+\bibcite{dataa}{30}
+\bibcite{ESC_dataset_50}{31}
+\bibcite{librosa}{32}
+\bibcite{SimilairtyEmbeddingNetwork}{33}
+\bibcite{dataaug}{34}
+\bibcite{fewshotdomain}{35}
+\bibcite{domainad}{36}
+\bibcite{domain_ad}{37}
+\bibcite{audioSet}{38}
+\@writefile{toc}{\contentsline {section}{\numberline {6} References}{5}\protected@file@percent }
