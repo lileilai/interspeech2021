@@ -26,22 +26,22 @@
 \maketitle 
 \begin{abstract}
   Sound event detection is to infer the event by understanding the surrounding environmental sounds. 
-  Few-shot learning methods promise generating a well-trained model which is easily generalized when facing a new limit-data sound detect task without many training steps. 
-  Recent approaches have achieved significant results in this field. However, these approaches treat each support example independently ignoring the information of other examples (events) from the whole task. 
-  Because of this, most of previous methods are constrained to generate a same feature embedding facing all test-time tasks. An ideal model would construct a feature embedding adapted to the input task. 
+  Few-shot learning methods promise generating a well-trained model which is easily generalized when facing a new limit-data task. 
+  Recent approaches have achieved significant results in this field. However, these approaches treat each support example independently ignoring the information of other examples from the whole task. 
+  Because of this, most of previous methods are constrained to generate a same feature embedding for all test-time tasks. An ideal model would train the feature embedding adapted to the input task. 
   In this work, we propose a novel task-adaptive module which is easily ported to any metric-based few-shot learning frameworks. The module could identify the task-relevant feature dimension. Incorporating our module improves performance considerably on two datasets over baseline methods, especially for the transductive propagation network. Such as +6.8\% for \textit{5-way 1-shot} accuracy on ESC-50, and +5.9\% on noiseESC-50. We also investigate our approach in the domain-mismatch setting and achieve better results than previous methods.
 \end{abstract} 
 \noindent\textbf{Index Terms}: Sound event detection, Few-shot learning, Data augmentation, Deep learning
-
+\vspace{-1mm}
 \section{Introduction}
 \label{sec:intro}
-
+\vspace{-1.5mm}
 Automatic environmental sound event detection has received increasing attention in recent years~\cite{TUTDatatbase}. It deals with audios detecting and classifying, which leads to multi-form applications in industry. Environmental sound is naturally different from other audios. It doesn't exhibit any stationary temporal patterns like phoneme in speech or rhythm in music. In contrast, sound event contains very complex temporal structure~\cite{sed1,sed2,se} that may be continues (e.g. rains), abrupt (e.g. thunder storm) or periodic (e.g. clock tick). Moreover, speech and music usually distribute on a relatively fixed frequency bandwidth, but sound event spans a wide frequency range where different sound’s frequency may distribute in various patterns~\cite{su2017weakly,pert}. The information contained in temporal patterns and frequency bins of the sound event could be massive~\cite{tf}.
 
 To date, many deep-learning (DL) methods greatly improved detection performance~\cite{autoTagging,audiofew,song,park,few-shot-sound-detection}. However, they typically require large amounts of labeled data, which limits the generalization ability to limited-data tasks due to the annotation cost. These motivate the study of \textbf{Few-shot learning}. Meantime, this method has also been introduced in ~\cite{attentionSimilarity,rare,few-att-gnn,fewShotGNN,TPN} which concerning rare sound event detection and achieved promising results. Few-shot model promises alleviating the problem of data deficit and cold start. It usually follows the episodic training strategy~\cite{attentionSimilarity,MatchNet}, which considers an N-way K-shot (e.g 5 way, 1 shot means there’re 5 classes, each contains 1 support example) classification task in each episode.
 \begin{figure}[t]
 	\centering
-	\includegraphics[width=0.95\linewidth]{./pic/idea-3.png}
+	\includegraphics[width=\linewidth]{./pic/idea-3.png}
 	\caption{An example illustrates the motivation. (a) defines a 5-way 1-shot task. There’re three feature dimensions: \textit{Tone}, \textit{Timbre} and \textit{loudness}. Different color means different value of the feature, same color adds the similarity score by 1; (b) In the k-shot (k=3) setting, all examples of class c3 share the same value of \textit{Tone} even though their \textit{Timbre} and \textit{loudness} are different. }
 	\label{fig:idea}
 	\vspace{-4mm}
@@ -170,7 +170,7 @@ where $x_j^i$ , $x_q$ denoting support and query example respectively.
 
 
 \subsection{Experimental setting}
-\vspace{-1mm}
+
 \textbf{Dataset}: in our work, ESC-50~\cite{ESC_dataset_50} and noiseESC-50 are used. The ESC-50 dataset contains 2,000 5-seconds audio clips that belonged to 50 classes, each having 40 examples. 
 Our model also follows~\cite{attentionSimilarity} to evaluate the performance under noise condition called noiseESC-50 that selected from audio recordings of 15 different acoustic scenes from the DCASE2016~\cite{TUTDatatbase}.
 So, the performance on ESC-50 and noiseESC-50 reflects the generalization ability of the model in real-world applications. 
@@ -179,10 +179,10 @@ The iteration times is set as 60 and the initial learning rate as 0.01. We set w
 
 \noindent\textbf{Data preparation}: To directly compare our model with other baselines, we follow the setting of~\cite{MatchNet} as same as~\cite{attentionSimilarity}. Two datasets are divided into 35 classes for training, 10 classes for test and other classes for validation. All audio clips are down-sampled from 44.1kHz to 16kHz. 128-bin log mel-spectrogram of raw audio is extracted as the input. The librosa~\cite{librosa} is used for feature extraction. During the episodic training, for each task, we only perform the mixup on the query set $\mathcal{Q}$.  
 Empirically, $\tau=24$, $\upsilon=36$ and $M=2$ are used for time and frequency masking, and $\alpha=0.2$  is used for mixup.
-\vspace{-1mm}
+
 
 \begin{table*}[t]
-    \vspace{-2mm}
+
 	\caption{The result of sound detection (in \%) on ESC-50 and noiseESC-50. All baselines reported here are directly reprint the experimental results from the literature~\cite{attentionSimilarity}. \textbf{TA} means the task-adaptive module. \textbf{DA} means the data augmentation method.}
 	\label{tab:1}
 	\centering
@@ -215,12 +215,12 @@ Empirically, $\tau=24$, $\upsilon=36$ and $M=2$ are used for time and frequency 
 		\bottomrule
 		\end{tabular}
 	}
-\vspace{-5mm}
+\vspace{-2mm}
 \end{table*}
 
-\vspace{-1.5mm}
+\vspace{-1mm}
 \subsection{Performance on ESC-50 and noiseESC-50}
-\vspace{-1.5mm}
+\vspace{-1mm}
 Experimental results are shown in Table~\ref{tab:1}. Our model significantly outperforms the previous model on two datasets. As shown in Table~\ref{tab:1}, the absolute improvement of our best model (TA+TPN+DA (temporal\&channel)) over published SOTA (TPN) is +6.8\% in \textit{5-way 1-shot}, +8.4\% in \textit{10-way 1-shot} on ESC-50. On noiseESC-50, +5.9\% in \textit{5-way 1-shot} and +7.8\% in \textit{10-way 1-shot}.
 At the same time, on ESC-50, we also notice that the performance gains slightly improvement than the SOTA, +0.1\% in \textit{10-way 5-shot}, 0.3\% in \textit{5-way 5-shot} on ESC-50, +3.8\% in \textit{10-way 5-shot}, +1.0\% in \textit{5-way 5-shot} on noiseESC-50.
 Obviously, our model gains more improvement in 1-shot setting. Two metric-based methods can be continuously improved by integrating TA.
@@ -229,10 +229,10 @@ Specifically, the experiment results of TPN on two datasets is produced by ourse
 From the statistics of Table~\ref{tab:1}, data augmentation 
 and temporal\&channel attention mechanism are also contributive. 
 The data augmentation strategy could continuously improve the effect of various few-shot models. The enhancement is more obvious of TA+TPN, 2.7\% for 5-way 1-shot and 2.0\% for 10-way 1-shot. The improvement brought by data augmentation and novel attention mechanism illustrate that the performance of baseline methods is severely underestimated.
-\vspace{-3mm}
+\vspace{-2mm}
 
 \subsection{Analysis of experimental results}
-\vspace{-2mm}
+\vspace{-1mm}
 First, the temporal\&channel attention can significantly improve the sound's representation, thus promote model's performances. It is acknowledged that
 temporal\&channel attention and data augmentation strategy could reduce the intra-class variation~\cite{dataaug}.
 With regarding the noise, the performance on ESC-50 is inferior to noiseESC-50. 
@@ -240,7 +240,7 @@ In addition, another significant observation is that 5-shot is less significantl
 For example, in 5-way of ESC-50, the performance of our model over published state-of-the-art is 0.3\% for 5-shot but 6.8\% for 1-shot. 
 Moreover, the margin of the various model decreases with the increasing of shots is because more labeled data are used. The superiority of task-adaptive module and other modules will be decreased when more labeled data are available. 
 In this paper, We also make detail experiments (5-way k-shot $k \in \{1,2,...,10\}$) of various model, and the results are presented in Figure~\ref{fig:fig_exp_1}, which verifies the viewpoint above.
-\vspace{-3mm}
+\vspace{-2mm}
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=\linewidth]{./pic/exp_8.png}
@@ -250,11 +250,11 @@ In this paper, We also make detail experiments (5-way k-shot $k \in \{1,2,...,10
 \end{figure}
 
 \subsection{Analysis of domain mismatch}
-\vspace{-2mm}
+\vspace{-1mm}
 During this subsection, we follow the setting created by~\cite{fewshotdomain}. While the current evaluation focus on recognizing novel class with limited training examples, these novel classes are sampled from the same domain. So, we follow the experiments from~\cite{fewshotdomain}, such a out-of-domain testing could display the ability of few-shot learning methods to generalize~\cite{domainad,domain_ad}. Following the previous setup, the selected AudioSet~\cite{audioSet} with 99 events for meta-train, meta-validation with 21 events and meta-test with 21 events. In addition, the pre-processing are same as the previous description about the setup of~\cite{attentionSimilarity}. The number of ways is set to 5, and we rerun the experiments: ProtoNet, ProtoNet+AS and TPN. For the domain mismatch setting, we experiments "Music" and "Animals" domain as same as~\cite{fewshotdomain}. The events and associated audios from the two domains are removed from train set.
 
 \begin{table}[th]
-	\vspace{-3mm}
+	\vspace{-2mm}
 	\caption{The result of few-shot sound detection in domain mismatch. The AUC(Area Under Curve) is used for evaluation.}
 	\label{tab:2}
 	\centering
@@ -284,13 +284,13 @@ During this subsection, we follow the setting created by~\cite{fewshotdomain}. W
 			\multicolumn{2}{l|}{\textbf{\textit{TA+TPN+DA(temporal\&channel)}}}  & \textbf{0.779} & \textbf{0.705}  & \textbf{0.857}  & \textbf{0.761}  \\ 
 			\bottomrule
 		\end{tabular}
-	\vspace{-3mm}
+	\vspace{-6mm}
 	}
 \end{table}
 
-%\vspace{-4mm}
+\vspace{-6mm}
 \section{Conclusion}
-%\vspace{-2mm}
+\vspace{-1mm}
 In this paper, we proposed a task-adaptive module for few-shot sound event detection. The module contains a task-adaptive extractor (TAE) and a projector. By considering all support examples at same time, TAE could extract the inner-class commonality and the projector could find cross-class characteristic features. Besides, the data augmentation strategy and the novel attention mechanism could further improve model’s performance. We demonstrated that it significantly improved accuracy on two benchmarks (ESC-50 and noiseESC-50), achieving state-of-the-art performance. In addition, we compared with several baselines under the experimental domain mismatch setting, our model could also gain improvement over baselines.
 
 \bibliographystyle{IEEEtran}

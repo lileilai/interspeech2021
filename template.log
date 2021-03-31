@@ -1,12 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.11)  30 MAR 2021 18:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2021.3.9)  31 MAR 2021 09:24
 entering extended mode
 **./template.tex
 (template.tex
 LaTeX2e <2020-02-02>
-L3 programming layer <2020-02-03>
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+L3 programming layer <2020-02-03> (D:\mik\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
+(D:\mik\tex/latex/base\size10.clo
 File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
@@ -20,31 +19,22 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-)
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
-y"
+) (D:\mik\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
-y"
+(D:\mik\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
-"
+ (D:\mik\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen135
 ))
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
-"
+(D:\mik\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen136
-)
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
-"
+) (D:\mik\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count175
@@ -85,34 +75,26 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\epsfig.st
-y"
+(D:\mik\tex/latex/graphics\epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
-sty"
+ (D:\mik\tex/latex/graphics\graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
-y"
+(D:\mik\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-)
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
-sty"
+) (D:\mik\tex/latex/graphics\graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+(D:\mik\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
-ics.cfg"
+(D:\mik\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
-x.def"
+(D:\mik\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen144
@@ -121,11 +103,10 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \epsfxsize=\dimen146
 \epsfysize=\dimen147
 )
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithmicx\algor
-ithmicx.sty"
+(D:\mik\tex/latex/algorithmicx\algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+(D:\mik\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -139,13 +120,10 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@storecount=\count192
 \c@ALG@tmpcounter=\count193
 \ALG@tmplength=\skip54
-)
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithms\algorit
-hm.sty"
+) (D:\mik\tex/latex/algorithms\algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
-
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+ (D:\mik\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count194
 \float@exts=\toks20
@@ -155,22 +133,17 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@algorithm=\toks22
 \c@algorithm=\count195
-)
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithmicx\algps
-eudocode.sty"
+) (D:\mik\tex/latex/algorithmicx\algpseudocode.sty
 Package: algpseudocode 
 
 Document Style - pseudocode environments for use with the `algorithmicx' style
-)
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.
-sty"
-Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+) (D:\mik\tex/latex/multirow\multirow.sty
+Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
 \multirow@colwidth=\skip55
 \multirow@cntb=\count196
 \multirow@dima=\skip56
 \bigstrutjot=\dimen148
-)
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
+) (D:\mik\tex/latex/tools\array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen149
 \ar@mcellbox=\box49
@@ -180,8 +153,7 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \backup@length=\skip58
 \ar@cellbox=\box50
 )
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigur
-e.sty"
+(D:\mik\tex/latex/subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip59
 \subfigcapskip=\skip60
@@ -197,14 +169,11 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigur
-e.cfg")
+(D:\mik\tex/latex/subfigure\subfigure.cfg)
 \subfig@top=\skip63
 \subfig@bottom=\skip64
 )
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.
-sty"
+(D:\mik\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen153
 \lightrulewidth=\dimen154
@@ -223,7 +192,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count269
 \@lastruleclass=\count270
 \@thisrulewidth=\dimen165
-) ("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\bm.sty"
+) (D:\mik\tex/latex/tools\bm.sty
 Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
@@ -231,14 +200,10 @@ Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 209.
 )
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.st
-y"
-Package: caption 2020/01/03 v3.4h Customizing captions (AR)
-
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.s
-ty"
-Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
+(D:\mik\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (D:\mik\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen166
 \captionmargin@=\dimen167
 \captionwidth=\dimen168
@@ -252,23 +217,20 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count272
 Package caption Info: float package is loaded.
 Package caption Info: subfigure package is loaded.
-) (INTERSPEECH2021.sty
+)
+(INTERSPEECH2021.sty
 Package: INTERSPEECH2021 2021/01/22 Official Interspeech 2021 package
-
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
-ty"
+ (D:\mik\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
-sty"
+(D:\mik\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup7
 \symAMSb=\mathgroup8
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+)) (D:\mik\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0m Standard LaTeX package
 )
 \headrulewidth=\dimen173
@@ -276,9 +238,7 @@ Package: textcomp 2020/02/02 v2.0m Standard LaTeX package
 \plainheadrulewidth=\dimen175
 \plainfootrulewidth=\dimen176
 \headwidth=\dimen177
-)
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
-d-pdfmode.def"
+) (D:\mik\tex/latex/l3backend\l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count273
 \l__pdf_internal_box=\box51
@@ -302,11 +262,9 @@ LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
 4.
 
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+(D:\mik\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
-df.mkii"
+) (D:\mik\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count274
 \scratchdimen=\dimen178
@@ -319,9 +277,7 @@ df.mkii"
 \MPnumerator=\count278
 \makeMPintoPDFobject=\count279
 \everyMPtoPDFconversion=\toks25
-)
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
-pdf-base.sty"
+) (D:\mik\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -331,22 +287,23 @@ Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
 
 
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+(D:\mik\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
 
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+ (D:\mik\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
 6.
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
+
+(D:\mik\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 2
 6.
-("C:\Users\18770\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omspcr.fd"
+ (D:\mik\tex/latex/psnfss\omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
@@ -355,13 +312,16 @@ LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
 File: ./pic/idea-3.png Graphic file (type png)
 <use ./pic/idea-3.png>
 Package pdftex.def Info: ./pic/idea-3.png  used on input line 44.
-(pdftex.def)             Requested size: 216.24023pt x 165.86057pt.
+(pdftex.def)             Requested size: 227.62204pt x 174.59215pt.
 <./pic/model.png, id=3, 766.062pt x 380.622pt>
 File: ./pic/model.png Graphic file (type png)
 <use ./pic/model.png>
 Package pdftex.def Info: ./pic/model.png  used on input line 60.
 (pdftex.def)             Requested size: 483.69684pt x 240.33324pt.
-[1{C:/Users/18770/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/CD/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 
@@ -381,40 +341,30 @@ File: ./pic/exp_8.png Graphic file (type png)
 <use ./pic/exp_8.png>
 Package pdftex.def Info: ./pic/exp_8.png  used on input line 246.
 (pdftex.def)             Requested size: 227.62204pt x 80.66492pt.
- (template.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./pic/exp_8.png>]
+ (template.bbl [4 <./pic/exp_8.png>]
 Underfull \hbox (badness 1502) in paragraph at lines 210--214
 []\OT1/ptm/m/n/8 J. F. Gem-meke, D. P. W. El-lis, D. Freed-man, A. Jansen,
  []
 
 ) [5] (template.aux) ) 
 Here is how much of TeX's memory you used:
- 4731 strings out of 481565
- 69446 string characters out of 2914179
- 322045 words of memory out of 3000000
- 19868 multiletter control sequences out of 15000+200000
+ 4865 strings out of 481565
+ 69093 string characters out of 2933749
+ 327329 words of memory out of 3000000
+ 20002 multiletter control sequences out of 15000+200000
  560608 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,42p,1084b,352s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/18770/AppData/Local/Programs/MiKTeX 2.9/fonts/e
-nc/dvips/base/8r.enc}<C:/Users/18770/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/18770/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/18770/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/18770/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb
-><C:/Users/18770/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr6.pfb><C:/Users/18770/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr9.pfb><C:/Users/18770/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/18770/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/18770/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/18770/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/18770/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/18770/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/187
-70/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on template.pdf (5 pages, 579188 bytes).
+ 39i,10n,43p,1084b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/mik/fonts/enc/dvips/base/8r.enc}<D:/mik/fonts/type1/p
+ublic/amsfonts/cmextra/cmex9.pfb><D:/mik/fonts/type1/public/amsfonts/cm/cmmi6.p
+fb><D:/mik/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/mik/fonts/type1/public/
+amsfonts/cmextra/cmmib9.pfb><D:/mik/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:
+/mik/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/mik/fonts/type1/public/amsfont
+s/cm/cmsy6.pfb><D:/mik/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/mik/fonts/t
+ype1/urw/courier/ucrr8a.pfb><D:/mik/fonts/type1/urw/times/utmb8a.pfb><D:/mik/fo
+nts/type1/urw/times/utmbi8a.pfb><D:/mik/fonts/type1/urw/times/utmr8a.pfb><D:/mi
+k/fonts/type1/urw/times/utmri8a.pfb>
+Output written on template.pdf (5 pages, 579117 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
